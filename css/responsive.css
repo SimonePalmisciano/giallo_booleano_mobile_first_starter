@@ -56,5 +56,40 @@
 /* DESKTOP SCREEN WIDTH */
 
 @media screen and (min-width: 992px) {
-    
+
+    /* SEZIONE RECIPE */
+
+    .recipe-name {
+        font-size: 2.5em;
+    }
+
+    .quick-notes ul {
+        display: block;
+    }
+
+    .recipe-card {
+        display: flex;
+    }
+
+    .recipe-video {
+        flex-grow: 1;
+        max-height: 500px;
+    }
+
+    .recipe-info {
+        flex-basis: calc(100% / 3);
+    }
+
+    .social-networks .label {
+        display: inline;
+    }
+
+    /* FOOTER */
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        text-align: left;
+    }
 }
